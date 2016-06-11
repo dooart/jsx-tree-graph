@@ -39,9 +39,9 @@ module.exports = function(components, output) {
 }
 
 function checkGraphvizInstalled() {
-  exec('gvpr -V', function (error, stdout, stderr) {
+  exec('gvpr -V', function (error) {
     if (error !== null) {
-      throw new Error('Graphviz could not be found. Ensure that "gvpr" is in your $PATH.\n' + error);
+      throw new Error('Graphviz could not be found. Ensure that "gvpr" is in your $PATH.\nHint: brew install graphviz\n\n' + error);
     }
   })
 }
