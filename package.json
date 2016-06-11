@@ -1,0 +1,17 @@
+{
+  "name": "jsx-tree-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acorn-jsx": "^3.0.1",
+    "astq": "^1.6.4",
+    "graphviz": "0.0.8",
+    "lodash": "^4.13.1"
+  }
+}
